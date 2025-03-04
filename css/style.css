@@ -1,0 +1,52 @@
+html,
+body,
+main {
+  height: 100%;
+  background-color: #15282e;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#screen {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: rgb(21, 40, 46);
+}
+#screen .cell {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+}
+
+#popup,
+#popup-finish {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.4);
+  background-color: rgb(34, 60, 70);
+  z-index: 2;
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
